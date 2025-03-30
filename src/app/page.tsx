@@ -4,6 +4,7 @@ import { Separator } from '@/components/ui/separator'
 import { Avatar, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import SkillSetTable from '@/components/skillSetTable'
+import Github from '@/components/github'
 
 export default function Home() {
      function downloadResume() {
@@ -27,15 +28,15 @@ export default function Home() {
                               </div>
                               <div>
                                    <div className="space-y-3">
-                                        <h4 className="text-2xl md:text-3xl font-medium leading-none ">Hi, I'm Yap Yi Liang</h4>
-                                        <h5 className="text-1xl md:text-2xl font-medium leading-none text-dark-green">A Full-Stack Software Developer</h5>
+                                        <h4 className="text-2xl md:text-3xl font-bold leading-none ">Hi, I'm Yap Yi Liang</h4>
+                                        <h5 className="text-1xl md:text-2xl font-bold leading-none text-dark-green">A Full-Stack Software Developer</h5>
                                    </div>
                                    <Separator className="my-4" />
 
                                    <ul className="flex flex-col space-y-1">
-                                        <li className="font-medium">Malaysian</li>
-                                        <li className="font-medium">Born in 28 Febuary 2001</li>
-                                        <li className="font-medium">A guys who loves coding and crypto</li>
+                                        <li className="font-bold">Malaysian</li>
+                                        <li className="font-bold">Born in 28 Febuary 2001</li>
+                                        <li className="font-bold">A guys who loves coding and crypto</li>
                                    </ul>
                               </div>
                          </div>
@@ -47,6 +48,8 @@ export default function Home() {
                          </div>
                     </div>
                </section>
+
+               <Github></Github>
           </div>
      )
 }
