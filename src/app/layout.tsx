@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-     title: 'Yap Yi Liang',
+     title: 'Yap Yi Liang - Portfolio',
      description: 'Portfolio',
 }
 
