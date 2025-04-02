@@ -30,7 +30,7 @@ export default function SkillSetTable() {
                     <h5 className="text-2xl sm:font-bold font-bold leading-none">Skill Set</h5>
                </div>
                <div className="flex text-center justify-center w-full">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl max-w-7xl mx-auto px-4 mb-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto px-4 mb-10">
                          {skillSet.map((data, index) => (
                               <div key={index} className="flex flex-col p-6 bg-card rounded-lg shadow-sm border border-border hover:shadow-md transition-shadow">
                                    <div className="flex  justify-center items-center gap-4">
