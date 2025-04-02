@@ -82,6 +82,11 @@
   color: #00de30;
 }
 
+.icon-size {
+  height: 8px;
+  width: 8px;
+}
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
