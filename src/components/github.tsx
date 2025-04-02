@@ -62,7 +62,7 @@ export default function Github() {
      return (
           <section>
                <Separator className="my-4" />
-               <div className="pb-10 flex flex-col items-center w-full">
+               <div className="pt-10 pb-10 flex flex-col items-center w-full">
                     <h5 className="text-2xl sm:font-bold font-bold leading-none">Project Build</h5>
                </div>
                <div className="flex justify-center w-full">
