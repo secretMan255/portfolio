@@ -9,6 +9,10 @@ export default function AboutMe() {
           link.click()
      }
 
+     function direct(link: string) {
+          window.open(link, '_blank', 'noopener,noreferrer')
+     }
+
      return (
           <section>
                <div className="container mx-auto max-w-3xl">
@@ -22,8 +26,16 @@ export default function AboutMe() {
                               </p>
                          </div>
                     </div>
+                    <div className="pb-6 md:pb-8 flex flex-row text-center justify-center">
+                         <Button variant="link" onClick={() => direct('https://github.com/secretMan255')} className="cursor-pointer font-bold">
+                              GITHUB
+                         </Button>
+                         <Button variant="link" onClick={() => direct('https://wa.me/+60172223195')} className="cursor-pointer font-bold">
+                              WHATSAPP
+                         </Button>
+                    </div>
                     <div className="flex justify-center" onClick={downloadResume}>
-                         <Button className="w-full w-75 md:w-2xl">Download Resume</Button>
+                         <Button className="w-full w-75 md:w-2xl">DOWNLOAD RESUME</Button>
                     </div>
                </div>
           </section>
