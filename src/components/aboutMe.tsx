@@ -33,6 +33,9 @@ export default function AboutMe() {
                          <Button variant="link" onClick={() => direct('https://wa.me/+60172223195')} className="cursor-pointer font-bold">
                               WHATSAPP
                          </Button>
+                         <Button variant="link" onClick={() => direct('https://www.linkedin.com/in/yap-yi-liang-81721b19b/')} className="cursor-pointer font-bold">
+                              LINKEDIN
+                         </Button>
                     </div>
                     <div className="flex justify-center" onClick={downloadResume}>
                          <Button className="w-full w-75 md:w-2xl">DOWNLOAD RESUME</Button>
