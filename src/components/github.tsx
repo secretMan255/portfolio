@@ -12,6 +12,12 @@ type GitHub = {
 export default function Github() {
      const github: GitHub[] = [
           {
+               title: 'Express-Rest-API-Template',
+               icon: <Cable className="text-primary" />,
+               describe: 'A express rest api template',
+               link: 'https://github.com/secretMan255/api.service.template'
+          },
+          {
                title: 'Rest-API-and-Mysql-Service',
                icon: <Cable className="text-primary" />,
                describe: 'A api service build with nodejs and mysql',

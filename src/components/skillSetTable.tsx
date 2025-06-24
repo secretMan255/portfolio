@@ -16,6 +16,11 @@ export default function SkillSetTable() {
                proficient: '8 / 10',
                icon: <NetworkIcon className="text-primary" />,
           },
+          {
+               skill: 'NestJs',
+               proficient: '8 / 10',
+               icon: <NetworkIcon className="text-primary" />,
+          },
           { skill: 'React / Vue', proficient: '7 / 10', icon: <Braces className="text-primary"></Braces> },
           { skill: 'C#', proficient: '7 / 10', icon: <Brackets className="text-primary" /> },
           { skill: 'Mysql', proficient: '8 / 10', icon: <Database className="text-primary" /> },
